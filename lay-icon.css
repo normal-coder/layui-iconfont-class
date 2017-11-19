@@ -1,3 +1,4 @@
+/** layui-iconfont-class MIT License PoweredBy http://www.normalcoder.com */
 @font-face {
     font-family: 'layui-icon';
     src: url('../font/iconfont.eot'); /* IE9*/
@@ -17,7 +18,6 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 .layui-icon-home:before {content: '\e68e';}  /* 主页 */
 .layui-icon-praise:before {content: '\e6c6';}  /* 赞 */
 .layui-icon-tread:before {content: '\e6c5';}  /* 踩 */
@@ -25,115 +25,115 @@
 .layui-icon-female:before {content: '\e661';}  /* 女 */
 .layui-icon-camera:before {content: '\e660';}  /* 相机-空心 */
 .layui-icon-camera-fill:before {content: '\e65d';}  /* 相机-实心 */
-.layui-icon-more:before {content: '\e65f';}  /* 菜单-水平 */  /* 修正：更多 */
-.layui-icon-more-vertical:before {content: '\e671';}  /* 菜单-竖直 */  /* 修正：更多-垂直 */
+.layui-icon-more:before {content: '\e65f';}  /* 更多 */
+.layui-icon-more-vertical:before {content: '\e671';}  /* 更多-垂直 */
 .layui-icon-return:before {content: '\e65c';}  /* 返回 */
-.layui-icon-fire:before {content: '\e756';}  /* Hot */ /* 修正：火／热门 */
-.layui-icon-diamond:before {content: '\e735';}  /* 等级 */ /* 修正：钻石 */
+.layui-icon-fire:before {content: '\e756';}  /* Hot/火／热门 */
+.layui-icon-diamond:before {content: '\e735';}  /* 钻石 */
 .layui-icon-money:before {content: '\e65e';}  /* 金额-人民币 */
 .layui-icon-dollars:before {content: '\e659';}  /* 金额-美元 */
 .layui-icon-location:before {content: '\e715';}  /* 位置 */
 .layui-icon-document:before {content: '\e705';}  /* 文档 */
-.layui-icon-questionnaire:before {content: '\e6b2';}  /* 检验 */  /* 修正：问卷 */
+.layui-icon-questionnaire:before {content: '\e6b2';}  /* 问卷 */
 .layui-icon-smile:before {content: '\e6af';}  /* 笑脸 */
 .layui-icon-cry:before {content: '\e69c';}  /* 哭脸 */
 .layui-icon-cart-simple:before {content: '\e698';}  /* 购物车1 */
 .layui-icon-cart:before {content: '\e657';}  /* 购物车2 */
 .layui-icon-star-fill:before {content: '\e658';}  /* 星级 */
-.layui-icon-back:before {content: '\e65a';}  /* 上一页 */ /* 修正：后退 */
-.layui-icon-forward:before {content: '\e65b';}  /* 下一页 */ /* 修正：向前 */
+.layui-icon-back:before {content: '\e65a';}  /* 后退 */
+.layui-icon-forward:before {content: '\e65b';}  /* 向前 */
 .layui-icon-upload:before {content: '\e681';}  /* 上传-空心 */
 .layui-icon-upload-fill:before {content: '\e67c';}  /* 上传-实心 */
 .layui-icon-floder:before {content: '\e7a0';}  /* 文件夹 */
 .layui-icon-apply:before {content: '\e857';}  /* 应用 */
-.layui-icon-play-circle:before {content: '\e652';}  /* 播放 */ /* 修正：播放（带圆圈） */
-.layui-icon-pause-circle:before {content: '\e651';}  /* 播放暂停 */ /* 修正：暂停（带圆圈） */
-.layui-icon-headset:before {content: '\e6fc';}  /* 音乐 */ /* 修正：头戴耳机 */
+.layui-icon-play-circle:before {content: '\e652';}  /* 播放（带圆圈） */
+.layui-icon-pause-circle:before {content: '\e651';}  /* 暂停（带圆圈） */
+.layui-icon-headset:before {content: '\e6fc';}  /* 头戴耳机 */
 .layui-icon-video:before {content: '\e6ed';}  /* 视频 */
 .layui-icon-voice:before {content: '\e688';}  /* 语音 */
 .layui-icon-speaker:before {content: '\e645';}  /* 喇叭 */
-.layui-icon-comment:before {content: '\e611';}  /* 对话 */  /* .duihua */
-.layui-icon-setting-fill:before {content: '\e614';}  /* 设置 */  /* .shezhi */
-.layui-icon-stealth:before {content: '\e60f';}  /* 隐身-im */  /* .yinshenim */
-.layui-icon-search:before {content: '\e615';}  /* 搜索 */  /* .search */
-.layui-icon-share:before {content: '\e641';}  /* 分享 */  /* .fenxiang1 */
+.layui-icon-comment:before {content: '\e611';}  /* 对话 */
+.layui-icon-setting-fill:before {content: '\e614';}  /* 设置 */
+.layui-icon-stealth:before {content: '\e60f';}  /* 隐身-im */
+.layui-icon-search:before {content: '\e615';}  /* 搜索 */
+.layui-icon-share:before {content: '\e641';}  /* 分享 */
 .layui-icon-refresh:before {content: '\1002';}  /* 刷新 */
 .layui-icon-loading-dot:before {content: '\e63d';}  /* loading */
 .layui-icon-loading:before {content: '\e63e';}  /* loading */
-.layui-icon-setting:before {content: '\e620';}  /* 设置 */  /* .shezhi1 */
-.layui-icon-engine:before {content: '\e628';}  /* 引擎 */  /* .yinqing */
-.layui-icon-close-empty:before {content: '\1006';}  /* 阅卷错号 */  /* .yuejuancuohao */
-.layui-icon-close-fill:before {content: '\1007';}  /* 错- */  /* .cuo */
-.layui-icon-reportform:before {content: '\e629';}  /* 报表 */  /* .baobiao */
-.layui-icon-star:before {content: '\e600';}  /* star */  /* .star */
-.layui-icon-dot-circle:before {content: '\e617';}  /* 圆点 */  /* .yuandian */
-.layui-icon-customer:before {content: '\e606';}  /* 客服 */  /* .kefu */
-.layui-icon-aircraft:before {content: '\e609';}  /* 发布 */  /* .logo */
-.layui-icon-list:before {content: '\e60a';}  /* 21cake_list */  /* .list */
-.layui-icon-ripple:before {content: '\e62c';}  /* 图表 */  /* .tubiao */ /* 修正：波形 */
-.layui-icon-right-circle-bold:before {content: '\1005';}  /* 正确 */  /* .right */
-.layui-icon-skin:before {content: '\e61b';}  /* 换肤2 */  /* .huanfu2 */
-.layui-icon-right-circle:before {content: '\e610';}  /* 在线 */  /* .On-line */
-.layui-icon-arrowright:before {content: '\e602';}  /* 右右 */  /* .youyou */
-.layui-icon-arrowleft:before {content: '\e603';}  /* 左左 */  /* .zuozuo */
+.layui-icon-setting:before {content: '\e620';}  /* 设置 */
+.layui-icon-engine:before {content: '\e628';}  /* 引擎 */
+.layui-icon-close-empty:before {content: '\1006';}  /* 阅卷错号 */
+.layui-icon-close-fill:before {content: '\1007';}  /* 错- */
+.layui-icon-reportform:before {content: '\e629';}  /* 报表 */
+.layui-icon-star:before {content: '\e600';}  /* star */
+.layui-icon-dot-circle:before {content: '\e617';}  /* 圆点 */
+.layui-icon-customer:before {content: '\e606';}  /* 客服 */
+.layui-icon-aircraft:before {content: '\e609';}  /* 发布 */
+.layui-icon-list:before {content: '\e60a';}  /* 21cake_list */
+.layui-icon-ripple:before {content: '\e62c';}  /* 图表/波形 */
+.layui-icon-right-circle-bold:before {content: '\w1005';}  /* 正确 */
+.layui-icon-skin:before {content: '\e61b';}  /* 换肤2 */
+.layui-icon-right-circle:before {content: '\e610';}  /* 在线 */
+.layui-icon-arrowright:before {content: '\e602';}  /* 右右 */
+.layui-icon-arrowleft:before {content: '\e603';}  /* 左左 */
 .layui-icon-table:before {content: '\e62d';}  /* 表格 */
-.layui-icon-holiday:before {content: '\e62e';}  /* icon_树 */  /* .icon5 */  /* 修正：假期 */
-.layui-icon-upload-circle:before {content: '\e62f';}  /* 上传 */  /* .iconfont17 */  /* 修正：上传-圆形 */
-.layui-icon-plus-circle-bold:before {content: '\e61f';}  /* 添加 */  /* .tianjia */  /* 修正：加号-圆形 */
-.layui-icon-down-circle:before {content: '\e601';}  /* 下载 */  /* .xiazai */  /* 修正：下载-圆形 */
-.layui-icon-responsive:before {content: '\e630';}  /* 选择模版48 */  /* .xuanzemoban48 */  /* 修正：响应式 */
-.layui-icon-toolkit:before {content: '\e631';}  /* 工具 */  /* .gongju */
-.layui-icon-plus:before {content: '\e654';}  /* 添加 */  /* 修正：加号 */
-.layui-icon-edit:before {content: '\e642';}  /* 编辑 */  /* 修正：编辑 */
-.layui-icon-trash:before {content: '\e640';}  /* 删除 */  /* 修正：删除 */
-.layui-icon-arraydown:before {content: '\e61a';}  /* 向下 */  /* .xiangxia */
-.layui-icon-file:before {content: '\e621';}  /* 文件 */  /* .wenjian */
-.layui-icon-layout:before {content: '\e632';}  /* 布局 */  /* .layouts */
-.layui-icon-checkmark:before {content: '\e618';}  /* 对勾 */  /* .duigou */
-.layui-icon-plus-circle:before {content: '\e608';}  /* 添加 */  /* .tianjia1 */
-.layui-icon-yaoyaozhibofanye:before {content: '\e633';}  /* 么么直播－翻页 */  /* .yaoyaozhibofanye */
-.layui-icon-404:before {content: '\e61c';}  /* 404 */  /* .404 */
-.layui-icon-carousel:before {content: '\e634';}  /* 轮播组图 */  /* .lunbozutu */
-.layui-icon-help:before {content: '\e607';}  /* help */  /* .help */
-.layui-icon-code-circle:before {content: '\e635';}  /* 代码1 */  /* .daima1 */
-.layui-icon-water:before {content: '\e636';}  /* 进水 */  /* .jinshui */
-.layui-icon-info:before {content: '\e60b';}  /* 关于 */  /* .guanyu */
-.layui-icon-arrayup:before {content: '\e619';}  /* 向上 */  /* .xiangshang */
-.layui-icon-date:before {content: '\e637';}  /* 日期 */  /* .riqi */
-.layui-icon-folder:before {content: '\e61d';}  /* 文件 */  /* .wenjian1 */  /* 修正：文件夹 */
-.layui-icon-top:before {content: '\e604';}  /* top */  /* .top */  /* 修正：回到顶部 */
-.layui-icon-person-fill:before {content: '\e612';}  /* 好友请求 */  /* .haoyouqingqiu */ /* 修正：人像 */
-.layui-icon-right:before {content: '\e605';}  /* 对 */  /* .weibiaoti1 */
-.layui-icon-window:before {content: '\e638';}  /* 窗口 */  /* .chuangkou */
-.layui-icon-smile-circle:before {content: '\e60c';}  /* 表情 */  /* .comiisbiaoqing */  /* 修正：微笑 */
-.layui-icon-right-fill:before {content: '\e616';}  /* 正确 */  /* .zhengque */
-.layui-icon-people:before {content: '\e613';}  /* 我的好友 */  /* .iconfontwodehaoyou */  /* 修正：群组 */
-.layui-icon-downloadfile:before {content: '\e61e';}  /* 文件下载 */  /* .wenjianxiazai */
-.layui-icon-image:before {content: '\e60d';}  /* 图片 */  /* .tupian */
-.layui-icon-link:before {content: '\e64c';}  /* 链接 */  /* .lianjie */
-.layui-icon-record:before {content: '\e60e';}  /* 记录 */  /* .jilu */
-.layui-icon-folder-fill:before {content: '\e622';}  /* 文件夹 */  /* .liucheng */
-.layui-icon-strikethrough:before {content: '\e64f';}  /* font-strikethrough */  /* .fontstrikethrough */
-.layui-icon-unlink:before {content: '\e64d';}  /* unlink */  /* .unlink */
-.layui-icon-edittext:before {content: '\e639';}  /* 编辑_文字 */  /* .bianjiwenzi */
-.layui-icon-play:before {content: '\e623';}  /* 三角 */  /* .sanjiao */
-.layui-icon-circle:before {content: '\e63f';}  /* 单选框-候选 */  /* .danxuankuanghouxuan */
-.layui-icon-radio:before {content: '\e643';}  /* 单选框-选中 */  /* .danxuankuangxuanzhong */
-.layui-icon-aligncenter:before {content: '\e647';}  /* 居中对齐 */  /* .juzhongduiqi */
-.layui-icon-alignright:before {content: '\e648';}  /* 右对齐 */  /* .youduiqi */
-.layui-icon-alignleft:before {content: '\e649';}  /* 左对齐 */  /* .zuoduiqi */
-.layui-icon-square:before {content: '\e626';}  /* 勾选框（未打勾） */  /* .gongsisvgtubiaozongji22 */
-.layui-icon-checkmark-square:before {content: '\e627';}  /* 勾选框（已打勾） */  /* .gongsisvgtubiaozongji23 */
-.layui-icon-bold:before {content: '\e62b';}  /* 加粗 */  /* .jiacu */
-.layui-icon-chat:before {content: '\e63a';}  /* 聊天 对话 IM 沟通 */  /* .liaotianduihuaimgoutong */
-.layui-icon-folder-reverse:before {content: '\e624';}  /* 文件夹_反 */  /* .wenjianjiafan */
-.layui-icon-mobile:before {content: '\e63b';}  /* 手机 */  /* .shouji */
-.layui-icon-smile-circle-bold:before {content: '\e650';}  /* 表情（微笑） */  /* .biaoqing */
-.layui-icon-html:before {content: '\e64b';}  /* html */  /* .html */
-.layui-icon-form:before {content: '\e63c';}  /* 表单 */  /* .biaodan */
-.layui-icon-tab:before {content: '\e62a';}  /* tab */  /* .25 */
-.layui-icon-code:before {content: '\e64e';}  /* emw_代码 */  /* .emwdaima */
-.layui-icon-underline:before {content: '\e646';}  /* 字体-下划线 */  /* .zitixiahuaxian */
-.layui-icon-triangle:before {content: '\e625';}  /* 三角 */  /* .sanjiao1 */
-.layui-icon-picture:before {content: '\e64a';}  /* 图片 */  /* .tupian-copy-copy */
-.layui-icon-italics:before {content: '\e644';}  /* 斜体 */  /* .xieti */
+.layui-icon-holiday:before {content: '\e62e';}  /* 假期 */
+.layui-icon-upload-circle:before {content: '\e62f';}  /* 上传(圆形) */
+.layui-icon-plus-circle-bold:before {content: '\e61f';}  /* 加号(圆形) */
+.layui-icon-down-circle:before {content: '\e601';}  /* 下载(圆形) */
+.layui-icon-responsive:before {content: '\e630';}  /* 响应式 */
+.layui-icon-toolkit:before {content: '\e631';}  /* 工具 */
+.layui-icon-plus:before {content: '\e654';}  /* 加号 */
+.layui-icon-edit:before {content: '\e642';}  /* 编辑 */
+.layui-icon-trash:before {content: '\e640';}  /* 删除 */
+.layui-icon-arraydown:before {content: '\e61a';}  /* 向下 */
+.layui-icon-file:before {content: '\e621';}  /* 文件 */
+.layui-icon-layout:before {content: '\e632';}  /* 布局 */
+.layui-icon-checkmark:before {content: '\e618';}  /* 对勾 */
+.layui-icon-plus-circle:before {content: '\e608';}  /* 添加 */
+.layui-icon-yaoyaozhibofanye:before {content: '\e633';}  /* 么么直播－翻页 */
+.layui-icon-404:before {content: '\e61c';}  /* 404 */
+.layui-icon-carousel:before {content: '\e634';}  /* 轮播组图 */
+.layui-icon-help:before {content: '\e607';}  /* help */
+.layui-icon-code-circle:before {content: '\e635';}  /* 代码1 */
+.layui-icon-water:before {content: '\e636';}  /* 进水 */
+.layui-icon-info:before {content: '\e60b';}  /* 关于 */
+.layui-icon-arrayup:before {content: '\e619';}  /* 向上 */
+.layui-icon-date:before {content: '\e637';}  /* 日期 */
+.layui-icon-folder:before {content: '\e61d';}  /* 文件夹 */
+.layui-icon-top:before {content: '\e604';}  /* top/回到顶部 */
+.layui-icon-person-fill:before {content: '\e612';}  /* 人像 */
+.layui-icon-right:before {content: '\e605';}  /* 对 */
+.layui-icon-window:before {content: '\e638';}  /* 窗口 */
+.layui-icon-smile-circle:before {content: '\e60c';}  /* 表情(微笑)(圆圈) */
+.layui-icon-right-fill:before {content: '\e616';}  /* 正确 */
+.layui-icon-people:before {content: '\e613';}  /* 群组 */
+.layui-icon-downloadfile:before {content: '\e61e';}  /* 文件下载 */
+.layui-icon-image:before {content: '\e60d';}  /* 图片 */
+.layui-icon-link:before {content: '\e64c';}  /* 链接 */
+.layui-icon-record:before {content: '\e60e';}  /* 记录 */
+.layui-icon-folder-fill:before {content: '\e622';}  /* 文件夹 */
+.layui-icon-strikethrough:before {content: '\e64f';}  /* font-strikethrough */
+.layui-icon-unlink:before {content: '\e64d';}  /* unlink */
+.layui-icon-edittext:before {content: '\e639';}  /* 编辑_文字 */
+.layui-icon-play:before {content: '\e623';}  /* 三角 */
+.layui-icon-circle:before {content: '\e63f';}  /* 单选框-候选 */
+.layui-icon-radio:before {content: '\e643';}  /* 单选框-选中 */
+.layui-icon-aligncenter:before {content: '\e647';}  /* 居中对齐 */
+.layui-icon-alignright:before {content: '\e648';}  /* 右对齐 */
+.layui-icon-alignleft:before {content: '\e649';}  /* 左对齐 */
+.layui-icon-square:before {content: '\e626';}  /* 勾选框（未打勾） */
+.layui-icon-checkmark-square:before {content: '\e627';}  /* 勾选框（已打勾） */
+.layui-icon-bold:before {content: '\e62b';}  /* 加粗 */
+.layui-icon-chat:before {content: '\e63a';}  /* 聊天 对话 IM 沟通 */
+.layui-icon-folder-reverse:before {content: '\e624';}  /* 文件夹_反 */
+.layui-icon-mobile:before {content: '\e63b';}  /* 手机 */
+.layui-icon-smile-circle-bold:before {content: '\e650';}  /* 表情（微笑） */
+.layui-icon-html:before {content: '\e64b';}  /* html */
+.layui-icon-form:before {content: '\e63c';}  /* 表单 */
+.layui-icon-tab:before {content: '\e62a';}  /* tab */
+.layui-icon-code:before {content: '\e64e';}  /* code/代码 */
+.layui-icon-underline:before {content: '\e646';}  /* 字体-下划线 */
+.layui-icon-triangle:before {content: '\e625';}  /* 三角 */
+.layui-icon-picture:before {content: '\e64a';}  /* 图片 */
+.layui-icon-italics:before {content: '\e644';}  /* 斜体 */
