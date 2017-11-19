@@ -71,7 +71,7 @@
 .layui-icon-aircraft:before {content: '\e609';}  /* 发布 */  /* .logo */
 .layui-icon-list:before {content: '\e60a';}  /* 21cake_list */  /* .list */
 .layui-icon-ripple:before {content: '\e62c';}  /* 图表 */  /* .tubiao */ /* 修正：波形 */
-.layui-icon-right-circle-blod:before {content: '\1005';}  /* 正确 */  /* .right */
+.layui-icon-right-circle-bold:before {content: '\1005';}  /* 正确 */  /* .right */
 .layui-icon-skin:before {content: '\e61b';}  /* 换肤2 */  /* .huanfu2 */
 .layui-icon-right-circle:before {content: '\e610';}  /* 在线 */  /* .On-line */
 .layui-icon-arrowright:before {content: '\e602';}  /* 右右 */  /* .youyou */
@@ -79,7 +79,7 @@
 .layui-icon-table:before {content: '\e62d';}  /* 表格 */
 .layui-icon-holiday:before {content: '\e62e';}  /* icon_树 */  /* .icon5 */  /* 修正：假期 */
 .layui-icon-upload-circle:before {content: '\e62f';}  /* 上传 */  /* .iconfont17 */  /* 修正：上传-圆形 */
-.layui-icon-plus-circle-blod:before {content: '\e61f';}  /* 添加 */  /* .tianjia */  /* 修正：加号-圆形 */
+.layui-icon-plus-circle-bold:before {content: '\e61f';}  /* 添加 */  /* .tianjia */  /* 修正：加号-圆形 */
 .layui-icon-down-circle:before {content: '\e601';}  /* 下载 */  /* .xiazai */  /* 修正：下载-圆形 */
 .layui-icon-responsive:before {content: '\e630';}  /* 选择模版48 */  /* .xuanzemoban48 */  /* 修正：响应式 */
 .layui-icon-toolkit:before {content: '\e631';}  /* 工具 */  /* .gongju */
@@ -124,11 +124,11 @@
 .layui-icon-alignleft:before {content: '\e649';}  /* 左对齐 */  /* .zuoduiqi */
 .layui-icon-square:before {content: '\e626';}  /* 勾选框（未打勾） */  /* .gongsisvgtubiaozongji22 */
 .layui-icon-checkmark-square:before {content: '\e627';}  /* 勾选框（已打勾） */  /* .gongsisvgtubiaozongji23 */
-.layui-icon-blod:before {content: '\e62b';}  /* 加粗 */  /* .jiacu */
+.layui-icon-bold:before {content: '\e62b';}  /* 加粗 */  /* .jiacu */
 .layui-icon-chat:before {content: '\e63a';}  /* 聊天 对话 IM 沟通 */  /* .liaotianduihuaimgoutong */
 .layui-icon-folder-reverse:before {content: '\e624';}  /* 文件夹_反 */  /* .wenjianjiafan */
 .layui-icon-mobile:before {content: '\e63b';}  /* 手机 */  /* .shouji */
-.layui-icon-smile-circle-blod:before {content: '\e650';}  /* 表情（微笑） */  /* .biaoqing */
+.layui-icon-smile-circle-bold:before {content: '\e650';}  /* 表情（微笑） */  /* .biaoqing */
 .layui-icon-html:before {content: '\e64b';}  /* html */  /* .html */
 .layui-icon-form:before {content: '\e63c';}  /* 表单 */  /* .biaodan */
 .layui-icon-tab:before {content: '\e62a';}  /* tab */  /* .25 */

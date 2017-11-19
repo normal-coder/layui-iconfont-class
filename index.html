@@ -17,7 +17,7 @@
         .font-small {
             font-size: 1.3em;
             color: #1E9FFF;
-            font-style: blod;
+            font-weight: bold;
         }
         .container {
             background-color: #ddd;
@@ -61,7 +61,7 @@
         </fieldset>
         <blockquote class="layui-elem-quote" style="text-align: left">
           <b style="color:#FF5722">参考文档：</b>
-          <a href="http://www.layui.com/doc/element/icon.html" style="font-style: blod;color:#1E9FFF">
+          <a href="http://www.layui.com/doc/element/icon.html" style="font-weight: bold;color:#1E9FFF">
             layui在线文档 - 字体图标 - http://www.layui.com/doc/element/icon.html
           </a><br>
             layui 的所有图标全部采用字体形式，取材于阿里巴巴矢量图标库（iconfont）。因此你可以把一个icon看作是一个普通的文字，这意味着你直接用css控制文字属性，如color、font-size，就可以改变图标的颜色和大小。
@@ -83,25 +83,25 @@
             <legend>关于图标的语义化问题</legend>
         </fieldset>
         <blockquote class="layui-elem-quote" style="text-align: left">
-            阿里的<a href="http://iconfont.cn" style="color:#1E9FFF">iconfont.cn</a>在 webfont 问题上做的很完美，layui的icon同样取自于iconfont.cn，但是使用了逆天的Unicode。。对开发者相当不友好。在参照了较多的命名规范后，将原先的内置图标以扩展样式实现了语义化。以主语+修饰词的方式进行命名。修饰词有<b style="color:#009688">-fill</b>（实心的图标，默认空心icon不带修饰词），<b style="color:#009688">-blod</b>（粗体的），<b style="color:#009688">-vertical</b>（垂直方向的），<b style="color:#009688">-circle</b>（带圆框的），<b style="color:#009688">-square</b>（方形的），<b style="color:#009688">-reverse</b>（反向的）。<br><br>
+            阿里的<a href="http://iconfont.cn" style="color:#1E9FFF">iconfont.cn</a>在 webfont 问题上做的很完美，layui的icon同样取自于iconfont.cn，但是使用了逆天的Unicode。。对开发者相当不友好。在参照了较多的命名规范后，将原先的内置图标以扩展样式实现了语义化。以主语+修饰词的方式进行命名。修饰词有<b style="color:#009688">-fill</b>（实心的图标，默认空心icon不带修饰词），<b style="color:#009688">-bold</b>（粗体的），<b style="color:#009688">-vertical</b>（垂直方向的），<b style="color:#009688">-circle</b>（带圆框的），<b style="color:#009688">-square</b>（方形的），<b style="color:#009688">-reverse</b>（反向的）。<br><br>
             <b style="color:#FF5722">关于修饰词的说明如下：</b>
             <blockquote style="text-align: left;padding-left: 2em;">
 <i class="font-small layui-icon layui-icon-camera"></i>（相机-空心）对应的样式是："layui-icon layui-icon-camera"<br>
 <i class="font-small layui-icon layui-icon-camera-fill"></i>（相机-实心）对应的样式是："layui-icon layui-icon-camera-fill"<br>
 <i class="font-small layui-icon layui-icon-smile"></i>表情（微笑）对应的样式是："layui-icon-smile"<br>
 <i class="font-small layui-icon layui-icon-smile-circle"></i>表情（微笑，带圆框） 对应的样式是："layui-icon-smile-circle"<br>
-<i class="font-small layui-icon layui-icon-smile-circle-blod"></i>表情（微笑，加粗戴圆框）对应的样式是："layui-icon-smile-circle-blod"<br>             
+<i class="font-small layui-icon layui-icon-smile-circle-bold"></i>表情（微笑，加粗戴圆框）对应的样式是："layui-icon-smile-circle-bold"<br>             
             </blockquote>
-
         </blockquote>
 
         <blockquote class="layui-elem-quote">
-          <div style="font-size: 1.5em;color:#FF5722;font-style: blod">适用版本：至今为止，layui v2.2.2及其以下版本均可使用。</div>
+          <div style="font-size: 1.5em;color:#FF5722;font-weight: bold">适用版本：至今为止，layui v2.2.2及其以下版本均可使用。</div>
         </blockquote>
         <fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
             <legend>原版layui 自带图标font-class命名、释义和预览</legend>
         </fieldset>
-        <div class="layui-row">
+        <div>
+          <div class="layui-row">
             <div class="layui-col-xs2 grid">
                 <i class="font layui-icon layui-icon-home"></i>
                 <div class="name"> 主页 </div>
@@ -384,9 +384,9 @@
                 <div class="fixed-name">layui-icon-ripple</div>
             </div>
             <div class="layui-col-xs2 grid">
-                <i class="font layui-icon layui-icon-right-circle-blod"></i>
+                <i class="font layui-icon layui-icon-right-circle-bold"></i>
                 <div class="name"> 正确 </div>
-                <div class="fixed-name">layui-icon-right-circle-blod</div>
+                <div class="fixed-name">layui-icon-right-circle-bold</div>
             </div>
         </div>
         <div class="layui-row">
@@ -429,9 +429,9 @@
                 <div class="fixed-name">layui-icon-upload-circle</div>
             </div>
             <div class="layui-col-xs2 grid">
-                <i class="font layui-icon layui-icon-plus-circle-blod"></i>
+                <i class="font layui-icon layui-icon-plus-circle-bold"></i>
                 <div class="name"> 添加 (加号-圆形)</div>
-                <div class="fixed-name">layui-icon-plus-circle-blod</div>
+                <div class="fixed-name">layui-icon-plus-circle-bold</div>
             </div>
             <div class="layui-col-xs2 grid">
                 <i class="font layui-icon layui-icon-down-circle"></i>
@@ -671,9 +671,9 @@
                 <div class="fixed-name">layui-icon-checkmark-square</div>
             </div>
             <div class="layui-col-xs2 grid">
-                <i class="font layui-icon layui-icon-blod"></i>
+                <i class="font layui-icon layui-icon-bold"></i>
                 <div class="name"> 加粗 </div>
-                <div class="fixed-name">layui-icon-blod</div>
+                <div class="fixed-name">layui-icon-bold</div>
             </div>
             <div class="layui-col-xs2 grid">
                 <i class="font layui-icon layui-icon-chat"></i>
@@ -693,9 +693,9 @@
                 <div class="fixed-name">layui-icon-mobile</div>
             </div>
             <div class="layui-col-xs2 grid">
-                <i class="font layui-icon layui-icon-smile-circle-blod"></i>
+                <i class="font layui-icon layui-icon-smile-circle-bold"></i>
                 <div class="name"> 表情（微笑） </div>
-                <div class="fixed-name">layui-icon-smile-circle-blod</div>
+                <div class="fixed-name">layui-icon-smile-circle-bold</div>
             </div>
             <div class="layui-col-xs2 grid">
                 <i class="font layui-icon layui-icon-html"></i>
@@ -741,12 +741,13 @@
             </div>
         </div>
 
+        </div>
 
         <fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
             <legend>Ending</legend>
         </fieldset>
         <blockquote class="layui-elem-quote" style="text-align: left">
-        <div style="font-size: 1.5em;color:#1E9FFF;font-style: blod;padding-bottom: 5px;">Layui - 用心与你沟通</div>
+        <div style="font-size: 1.5em;color:#1E9FFF;font-weight: bold;padding-bottom: 5px;">Layui - 用心与你沟通</div>
             官网（<a href="http://www.layui.com/">http://www.layui.com/</a>）、
             在线文档（<a href="http://www.layui.com/doc/">http://www.layui.com/doc/</a>）、
             Github（<a href="https://github.com/sentsin/layui">https://github.com/sentsin/layui</a>）、
@@ -755,7 +756,7 @@
 
 
 <blockquote class="layui-elem-quote" style="text-align: left">
-<div style="font-size: 1.5em;color:#1E9FFF;font-style: blod;padding-bottom: 5px;">
+<div style="font-size: 1.5em;color:#1E9FFF;font-weight: bold;padding-bottom: 5px;">
             Layui IconFonts Powered By<a href="http://www.normalcoder.com/"> 诺墨 </a><br>
 </div>
 Github（<a href="https://github.com/normal1017/layui-iconfont-class">https://github.com/normal1017/layui-iconfont-class</a>）、
